@@ -19,9 +19,9 @@ void main(){
 		hr=hr-12;
 	}
 	circle(getmaxx()/2,getmaxy()/2,150);
-	pieslice(getmaxx()/2,getmaxy()/2,89-(hr*30),90-(hr*30),50);
-	pieslice(getmaxx()/2,getmaxy()/2,89-(min*6),90-(min*6),75);
-	pieslice(getmaxx()/2,getmaxy()/2,89-(sec*6),90-(sec*6),100);
+	pieslice(getmaxx()/2,getmaxy()/2,91-(hr*30),90-(hr*30),50);
+	pieslice(getmaxx()/2,getmaxy()/2,91-(min*6),90-(min*6),75);
+	pieslice(getmaxx()/2,getmaxy()/2,91-(sec*6),90-(sec*6),100);
 	delay(1000);
 	cleardevice();
 	}
