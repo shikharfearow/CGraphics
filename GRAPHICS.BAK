@@ -27,7 +27,6 @@ void bubbleSortBars(int a[],int n)
 				a[i] = a[j];
 				a[j] = t;
 				delay(1000);
-				getch();
 				genBars(a,n);
 			}
 		}
